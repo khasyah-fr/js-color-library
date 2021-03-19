@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Infscreen</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Yalor.js</h1>
+        <h6>Yet Another Color Javascript library</h6>
+    </div>
+    
+    <div id="body">
+        <!-- Random -->
+        <div class="section">
+            <h1>random(): <span>returns a random hex color</span></h1>
+            <div class="flex-container">
+                <div class="box">
+                    <div class="random"></div>
+                </div>
+                <div class="box">
+                    <div class="random"></div>
+                </div>
+                <div class="box">
+                    <div class="random"></div>
+                </div>
+                <div class="box">
+                    <div class="random"></div>
+                </div>
+                <div class="box">
+                    <div class="random"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Complement -->
+        <div class="section">
+            <h1>complementary(string "#hex"): <span>returns a complement of the hex color</span></h1>
+            <div class="flex-container">
+                <div class="box">
+                    <div id="complement1"></div>
+                </div>
+                <div class="equation">
+                    <h3> <--> </h3>
+                </div>
+                <div class="box">
+                    <div id="complement2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shade -->
+        <div class="section">
+            <h1>shade(string "#hex", int percent): <span>returns lightened color if percent positive, returns darkened color if percent negative</span></h1>
+            <h3>Lighten: </h3>
+            <div class="flex-container">
+                <div class="box">
+                    <div class="base"></div>
+                </div>
+                <div class="equation">
+                    <h3> --> </h3>
+                </div>
+                <div class="box">
+                    <div id="lighten"></div>
+                </div>
+            </div>
+            <h3>Darken: </h3>
+            <div class="flex-container">
+                <div class="box">
+                    <div class="base"></div>
+                </div>
+                <div class="equation">
+                    <h3> --> </h3>
+                </div>
+                <div class="box">
+                    <div id="darken"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Yalor library -->
+    <script src="yalor.js"></script>
+
+    <!-- Your own js file -->
+    <script src="script.js"></script>
+</body>
+</html>

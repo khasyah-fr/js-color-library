@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #eeeeee;
+}
+
+body {
+    margin: 0 15%;
+    padding: 2%;
+    background-color: white;
+    --main-color: pink;
+    --comp: pink;
+    --base: pink;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+#header {
+    margin: 0 auto;
+    padding: 9%;
+    background-color: var(--main-color);
+    color: white;
+}
+
+#header h1 {
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Chango', cursive;
+}
+
+#header h6 {
+    padding-top: 8px;
+    font-weight: bolder;
+}
+
+.section {
+    margin-top: 16px;
+}
+
+.section h1 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.box {
+    padding: 1%;
+    margin: 1%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.random {
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+#complement1 {
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    background-color: var(--comp);
+}
+
+#complement2 {
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.equation {
+    padding-top: 50px;
+}
+
+.base {
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    background-color: var(--base);
+}
+
+#darken {
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+#lighten {
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+}
